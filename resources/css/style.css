@@ -9,30 +9,55 @@ html {
   margin: 0px auto;
 }
 
-.header {
-  width: 960px;
-  background-color: cadetblue;
+header {
   color: white;
-  margin: 1rem auto 0px;
+  margin: 0px auto;
+  height: 30rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
 }
 
-.header .container {
+header .top-bar {
+  background-color: cadetblue;
+  width: 960px;
   display: flex;
   align-items: center;
   font-size: 1rem;
-  padding: 1rem 0px;
 }
 
-.header img {
+header img {
   height: 1.5rem;
   padding-left: 2rem;
   padding-right: 1rem;
 }
 
-.header nav {
+header nav {
   margin-left: auto;
+  padding: 1rem 0;
 }
 
-.header nav span {
+header nav span {
   padding-right: 2rem;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headline {
+  padding: 1.5rem 5rem;
+  color: black;
+  background-color: white;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 1.2;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
 }
