@@ -1,0 +1,38 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+.header {
+  width: 960px;
+  background-color: cadetblue;
+  color: white;
+  margin: 1rem auto 0px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 1rem 0px;
+}
+
+.header img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.header nav {
+  margin-left: auto;
+}
+
+.header nav span {
+  padding-right: 2rem;
+}
