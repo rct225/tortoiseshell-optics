@@ -61,3 +61,32 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
 }
+
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.service img {
+  width: 5rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+.general-info {
+  display: flex;
+  margin-top: 3rem;
+}
