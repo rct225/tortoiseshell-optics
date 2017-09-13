@@ -6,7 +6,7 @@ html {
 
 .container {
   max-width: 960px;
-  margin: 0px auto;
+  margin: auto;
 }
 
 header {
@@ -88,7 +88,24 @@ h1 {
 
 .general-info {
   display: flex;
-  margin-top: 3rem;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+.heading {
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
 }
 
 footer {
@@ -100,6 +117,6 @@ footer {
 
 footer img {
   height: 1.5rem;
-  padding-left: 2rem;
-  padding-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
