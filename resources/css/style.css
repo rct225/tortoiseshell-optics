@@ -90,3 +90,16 @@ h1 {
   display: flex;
   margin-top: 3rem;
 }
+
+footer {
+  display: flex;
+  padding: 4rem 2rem;
+  align-items: center;
+  background-color: azure;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
